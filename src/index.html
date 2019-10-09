@@ -9,5 +9,29 @@
 </head>
 <body>
   <app-root></app-root>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDqOH8RhWV6X-BgkM3oUa791g_fwAV6dkc",
+    authDomain: "oshop-d24cc.firebaseapp.com",
+    databaseURL: "https://oshop-d24cc.firebaseio.com",
+    projectId: "oshop-d24cc",
+    storageBucket: "oshop-d24cc.appspot.com",
+    messagingSenderId: "878393188452",
+    appId: "1:878393188452:web:09b6f181f06f47a6eebf71",
+    measurementId: "G-PTRMDQNKWZ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
